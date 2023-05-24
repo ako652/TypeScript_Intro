@@ -2,15 +2,25 @@
 
 // add the type for this variable
 
-let firstName = "Andrea";
+let firstName:string = "Andrea";
 
-const randomNumber = 3;
+const randomNumber:number = 3;
 
-let phoneNumber = "1-770-736-8031 x56442";
+let phoneNumber :string= "1-770-736-8031 x56442";
 
 // object
+type userName ={
+  firstName:string;
+  age:number;
+  address:{
+    street:string;
+    suite:string;
+    city:string;
+    zipCode:string;
+  }
+}
 
-const userName = {
+const userName :userName = {
   firstName: "Andrea",
   age: 5,
   address: {
@@ -22,6 +32,6 @@ const userName = {
 };
 
 // array
-const array = [1, 2, 3, 4];
+const array :number[]= [1, 2, 3, 4];
 
-const array1 = [1, 2, 3, 4, "Andrea", { age: 3, address: 12 }];
+const array1 :(number|string|{age:number, address:number})[]= [1, 2, 3, 4, "Andrea", { age: 3, address: 12 }];

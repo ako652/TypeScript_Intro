@@ -1,22 +1,36 @@
 // basic types: string, number, boolean,void
 
-const a = 5;
+const a:number = 5;
 
 // function
-function addNumber(a, b):{
+function addNumber(a:number, b:number):number{
   return a + b;
 }
 
-function greeting(firstName) {
-  console.log(firstName);
+function greeting(firstName:string):string {
+  return firstName
 }
 // object
-const user = { name: "Andrea" };
+type user ={name:string}
+const user :user= { name: "Andrea" };
 
 // array
-const numberArray = [1, 2, 3];
+const numberArray:number[] = [1, 2, 3];
 
-const productList = [
+type productList ={
+  id:number;
+  title:string;
+  price:number;
+  description:string;
+  category:string;
+  image:string;
+  rating :{
+    rate:number;
+    count:number;
+  }
+}
+
+const productList:productList[] = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
