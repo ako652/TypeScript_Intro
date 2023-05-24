@@ -45,14 +45,3 @@ const productList = [
     },
   },
 ];
-
-type ProductType = {
-  id: number;
-  title: string;
-  price: number;
-  description: string;
-};
-
-type ProductList = {
-  productList: ProductType[];
-};

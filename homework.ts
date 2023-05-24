@@ -1,4 +1,5 @@
 // Typescript
+
 // add the type for this variable
 
 let firstName = "Andrea";
