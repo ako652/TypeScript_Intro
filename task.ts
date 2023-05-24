@@ -3,7 +3,7 @@
 const a = 5;
 
 // function
-function addNumber(a: number, b: number): number {
+function addNumber(a, b):{
   return a + b;
 }
 
