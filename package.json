@@ -1,0 +1,11 @@
+{
+  "name": "typescript-introduction",
+  "version": "1.0.0",
+  "description": "typescript introduction",
+  "main": "index.js",
+  "author": "Andrea",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
